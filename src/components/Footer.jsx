@@ -28,15 +28,15 @@ function Footer() {
             <h3 className="footer-widget__title">Page</h3>
             <ul className="short-link-list">
                                     <li>
-                        <a style={{textDecoration:"none",color:"#22178bff"}} href="">
+                        <a style={{textDecoration:"none",color:"#22178bff"}} >
                         Company Policy</a>
                     </li>
                                     <li>
-                        <a style={{textDecoration:"none",color:"#22178bff"}} href="">
+                        <a style={{textDecoration:"none",color:"#22178bff"}} >
                         Terms of Services</a>
                     </li>
                                     <li>
-                        <a style={{textDecoration:"none",color:"#22178bff"}} href="">
+                        <a style={{textDecoration:"none",color:"#22178bff"}} >
                         Privacy Policy</a>
                     </li>
                             </ul>

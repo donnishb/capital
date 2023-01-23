@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link,useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
@@ -8,14 +8,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Spinner from 'react-bootstrap/Spinner';
 import Footer from "../components/Footer";
-import HeaderImage from "../components/HeaderImage";
+
 function Withdraw()
 {
     const [password,setPassword] = useState("")
-    const [mobile,setMobile] = useState(false);
     const [bool,setBool] = useState(false)
-    const [withdraw,setWithdraw] = useState(false)
- 
     const navigate = useNavigate('/')
     const handleClick =()=>{
         navigate("/")}

@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
-import Unnamed from "../components/Unnamed";
+
 function Contacts() {
     return (
       <>

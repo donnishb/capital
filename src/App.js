@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Home from './screens/Home';
-import About_ from './screens/About_';
+import Aboutt from './screens/Aboutt';
 import Services from './screens/Services_';
 import Faq from './screens/Faq';
 import Contacts from './screens/Contacts';
@@ -14,11 +14,9 @@ import Withdraw from './screens/Withdrawal';
 import Details from './screens/Details';
 import Success from './screens/Success';
 import Error from 'screens/Error';
-import { useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 
 function App() {
-  const navigate = useNavigate()
   const [isSignedIn, setIsSignedIn] = useState(null)
   const [withdraw,setWithdraw] = useState(false)
   
@@ -29,7 +27,7 @@ function App() {
     <Routes>
       
       <Route path='/' element ={ <Home />}> </Route>
-      <Route path='about' element={<About_ />}></Route>
+      <Route path='about' element={<Aboutt />}></Route>
       <Route path='services' element={<Services />}></Route>
       <Route path='faq' element={<Faq />}></Route>
       <Route path='contact' element={<Contacts />}></Route>

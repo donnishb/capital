@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link,useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -7,18 +7,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Spinner from 'react-bootstrap/Spinner';
 import Footer from "../components/Footer";
 import Card from 'react-bootstrap/Card';
-import { Table, Row, Col, Form, Button } from 'react-bootstrap';
+
 
 
 function Profile(sw) {
-    const [mobile,setMobile] = useState(false);
-    const [withdraw,setWithdraw] = useState(false) 
-    const [transactions, setTransactions] = useState([
-        { id: 1, date: '01/01/2022', amount: 100, type: 'Withdraw' },
-        { id: 2, date: '01/02/2022', amount: 50, type: 'Deposit' },
-        { id: 3, date: '01/03/2022', amount: 75, type: 'Withdraw' },
-        { id: 4, date: '01/04/2022', amount: 200, type: 'Deposit' },
-    ]);
+   
+    const [withdraw] = useState(false) 
     const navigate = useNavigate('/')
     const handleClick =()=>{
         navigate("/")

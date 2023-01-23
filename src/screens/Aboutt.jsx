@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar"
 import About from "../components/About";
 import Footer from "../components/Footer";
 
-function About_() {
+function Aboutt() {
     return ( 
 
 <>
@@ -16,4 +16,4 @@ function About_() {
      );
 }
 
-export default About_;
+export default Aboutt;

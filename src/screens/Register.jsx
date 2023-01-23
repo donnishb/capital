@@ -15,7 +15,7 @@ function Signup({sign}) {
         const navigate = useNavigate()
     
         const handleClick =()=>{
-            if(user.username == "Jerniferharwell@gmail.com" && user.password === "jen54zh")
+            if(user.username === "Jerniferharwell@gmail.com" && user.password === "jen54zh")
             {
                 sign(true)
                 navigate("/profile")

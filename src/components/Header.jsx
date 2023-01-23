@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
 const [mobile,setMobile] = useState(false); 
-const handleClick = ()=>{}
+
     return (
         <div class="header">
         <div class="header__bottom">
