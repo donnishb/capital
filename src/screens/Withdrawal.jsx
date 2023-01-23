@@ -56,12 +56,12 @@ function Withdraw()
     </Navbar>
 
     <div class="main-wrapper">
-       <section  style={{margin:"150px"}}>
+       
     
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Recipient's Name:</Form.Label>
-        <Form.Control  type="text" placeholder="Enter Recipient's Name" />
+        <Form.Control   type="text" placeholder="Enter Recipient's Name" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -96,7 +96,7 @@ function Withdraw()
       </Form.Group>
     </Form>
 
-    </section>
+   
     </div>
     </>):(<><div>  <h1>CAPITAL CREDIT</h1> <label style={{margin:"100px"}} htmlFor="password"> Confirm Password:</label> <input placeholder="type password" name="password" value={password} onChange={(e)=>{setPassword(e.target.value);console.log(password)}} />
 <button class="btn btn-primary" onClick={()=>{handleClickk()}}>Signin</button > <Footer /> </div></>)}

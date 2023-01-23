@@ -65,7 +65,7 @@ function Profile(sw) {
 
 <div class="container" >
 
-<div style={{display:"flex",justifyContent:"space-around"}} >
+<div style={{margin:"25px",display:"flex",justifyContent:"space-around"}} >
 
 
 
@@ -76,7 +76,6 @@ function Profile(sw) {
 <Card
           bg='info'
           text='white'
-          style={{ width: '18rem' }}
           className="mb-2"
         >
           <Card.Header><Card.Title> Account Number </Card.Title></Card.Header>
@@ -93,7 +92,6 @@ function Profile(sw) {
 <Card
           bg='info'
           text='white'
-          style={{ width: '18rem' }}
           className="mb-2"
         >
           <Card.Header><Card.Title> Available Balance </Card.Title></Card.Header>
@@ -113,7 +111,7 @@ function Profile(sw) {
         <div class="col-lg-4 col-md-6">
 
     <div class="d-widget section--bg2 d-flex flex-wrap align-items-center rounded-3 bg_img h-100" >
-        <div class="d-widget__content" style={{ width: '50%', margin:"auto"}}>
+        <div class="d-widget__content" style={{ width: '100%', margin:"auto"}}>
         <Card border="info" >
         <Card.Header><Card.Title>  Deposits
           <div><i class="bi bi-briefcase"></i></div></Card.Title></Card.Header>
@@ -132,7 +130,7 @@ function Profile(sw) {
         <div class="col-lg-4 col-md-6">
 
     <div class="d-widget section--bg2 d-flex flex-wrap align-items-center rounded-3 bg_img h-100" >
-        <div class="d-widget__content" style={{ width: '50%', margin:"auto"}}>
+        <div class="d-widget__content" style={{ width: '100%', margin:"auto"}}>
         <Card border="info" >
         <Card.Header><Card.Title>   Withdrawals
         <div><i class="bi bi-bank"></i></div></Card.Title></Card.Header>
@@ -154,7 +152,7 @@ function Profile(sw) {
 <div class="col-lg-4 col-md-6">
 
     <div class="d-widget section--bg2 d-flex flex-wrap align-items-center rounded-3 bg_img h-100" >
-        <div class="d-widget__content" style={{ width: '50%', margin:"auto"}}>
+        <div class="d-widget__content" style={{ width: '100%', margin:"auto"}}>
 
 
         
